@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		667AB08873A86A45DACF0B26 /* libPods-TabataTimer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1FBE1FD595BFE2BE7CEF13D /* libPods-TabataTimer.a */; };
+		BFBFD525D6241EDAEDCA739A /* libPods-TabataTimerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB1E8D1B60E074875C0354B /* libPods-TabataTimerTests.a */; };
+		E31D236E1D9BAF6800C1CD04 /* ABTabataTimerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E31D236D1D9BAF6800C1CD04 /* ABTabataTimerView.m */; };
+		E33895E71D9AABAF0068F728 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E33895E61D9AABAF0068F728 /* main.m */; };
+		E33895EA1D9AABAF0068F728 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E33895E91D9AABAF0068F728 /* AppDelegate.m */; };
+		E33895F01D9AABAF0068F728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33895EE1D9AABAF0068F728 /* Main.storyboard */; };
+		E33895F21D9AABAF0068F728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E33895F11D9AABAF0068F728 /* Assets.xcassets */; };
+		E33895F51D9AABAF0068F728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33895F31D9AABAF0068F728 /* LaunchScreen.storyboard */; };
+		E33896001D9AABAF0068F728 /* TabataTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E33895FF1D9AABAF0068F728 /* TabataTimerTests.m */; };
+		E33896151D9AB31A0068F728 /* ABSetupTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33896141D9AB31A0068F728 /* ABSetupTimerViewController.m */; };
+		E33896181D9AB33D0068F728 /* ABTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33896171D9AB33D0068F728 /* ABTimerViewController.m */; };
+		E37727B71DA2829D00DBFBB8 /* UIColor+ABTabataTimerColors.m in Sources */ = {isa = PBXBuildFile; fileRef = E37727B61DA2829D00DBFBB8 /* UIColor+ABTabataTimerColors.m */; };
+		E3F098101D9E965A00219D56 /* ABTimerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F0980F1D9E965A00219D56 /* ABTimerModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E33895FC1D9AABAF0068F728 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E33895DA1D9AABAF0068F728 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E33895E11D9AABAF0068F728;
+			remoteInfo = TabataTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CDCD7D1275523D2AB38EE84 /* Pods-TabataTimerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabataTimerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TabataTimerTests/Pods-TabataTimerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D9AAA146C15C309275BBDAD /* Pods-TabataTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabataTimer.release.xcconfig"; path = "Pods/Target Support Files/Pods-TabataTimer/Pods-TabataTimer.release.xcconfig"; sourceTree = "<group>"; };
+		31A1718D71D82F41CD0E525F /* Pods-TabataTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabataTimer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TabataTimer/Pods-TabataTimer.debug.xcconfig"; sourceTree = "<group>"; };
+		3AB1E8D1B60E074875C0354B /* libPods-TabataTimerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TabataTimerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAB87C75A4A80211B924E51E /* Pods-TabataTimerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabataTimerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TabataTimerTests/Pods-TabataTimerTests.release.xcconfig"; sourceTree = "<group>"; };
+		D1FBE1FD595BFE2BE7CEF13D /* libPods-TabataTimer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TabataTimer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31D236C1D9BAF6800C1CD04 /* ABTabataTimerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTabataTimerView.h; sourceTree = "<group>"; };
+		E31D236D1D9BAF6800C1CD04 /* ABTabataTimerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTabataTimerView.m; sourceTree = "<group>"; };
+		E33895E21D9AABAF0068F728 /* TabataTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabataTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33895E61D9AABAF0068F728 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E33895E81D9AABAF0068F728 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E33895E91D9AABAF0068F728 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E33895EF1D9AABAF0068F728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E33895F11D9AABAF0068F728 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E33895F41D9AABAF0068F728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E33895F61D9AABAF0068F728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E33895FB1D9AABAF0068F728 /* TabataTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabataTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33895FF1D9AABAF0068F728 /* TabataTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabataTimerTests.m; sourceTree = "<group>"; };
+		E33896011D9AABAF0068F728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E33896131D9AB31A0068F728 /* ABSetupTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABSetupTimerViewController.h; sourceTree = "<group>"; };
+		E33896141D9AB31A0068F728 /* ABSetupTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABSetupTimerViewController.m; sourceTree = "<group>"; };
+		E33896161D9AB33D0068F728 /* ABTimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTimerViewController.h; sourceTree = "<group>"; };
+		E33896171D9AB33D0068F728 /* ABTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTimerViewController.m; sourceTree = "<group>"; };
+		E37727B51DA2829D00DBFBB8 /* UIColor+ABTabataTimerColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+ABTabataTimerColors.h"; path = "Utils/UIColor+ABTabataTimerColors.h"; sourceTree = "<group>"; };
+		E37727B61DA2829D00DBFBB8 /* UIColor+ABTabataTimerColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ABTabataTimerColors.m"; path = "Utils/UIColor+ABTabataTimerColors.m"; sourceTree = "<group>"; };
+		E3F0980E1D9E965A00219D56 /* ABTimerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTimerModel.h; sourceTree = "<group>"; };
+		E3F0980F1D9E965A00219D56 /* ABTimerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTimerModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E33895DF1D9AABAF0068F728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667AB08873A86A45DACF0B26 /* libPods-TabataTimer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33895F81D9AABAF0068F728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFBFD525D6241EDAEDCA739A /* libPods-TabataTimerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38B1AB1C279FB56EF876D9C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1FBE1FD595BFE2BE7CEF13D /* libPods-TabataTimer.a */,
+				3AB1E8D1B60E074875C0354B /* libPods-TabataTimerTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A9AEDE04869BB4DEED84B3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31A1718D71D82F41CD0E525F /* Pods-TabataTimer.debug.xcconfig */,
+				2D9AAA146C15C309275BBDAD /* Pods-TabataTimer.release.xcconfig */,
+				2CDCD7D1275523D2AB38EE84 /* Pods-TabataTimerTests.debug.xcconfig */,
+				AAB87C75A4A80211B924E51E /* Pods-TabataTimerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E31D236B1D9BAF4B00C1CD04 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E31D236C1D9BAF6800C1CD04 /* ABTabataTimerView.h */,
+				E31D236D1D9BAF6800C1CD04 /* ABTabataTimerView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E33895D91D9AABAF0068F728 = {
+			isa = PBXGroup;
+			children = (
+				E33895E41D9AABAF0068F728 /* TabataTimer */,
+				E33895FE1D9AABAF0068F728 /* TabataTimerTests */,
+				E33895E31D9AABAF0068F728 /* Products */,
+				4A9AEDE04869BB4DEED84B3A /* Pods */,
+				38B1AB1C279FB56EF876D9C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E33895E31D9AABAF0068F728 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E33895E21D9AABAF0068F728 /* TabataTimer.app */,
+				E33895FB1D9AABAF0068F728 /* TabataTimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E33895E41D9AABAF0068F728 /* TabataTimer */ = {
+			isa = PBXGroup;
+			children = (
+				E37727B41DA2827400DBFBB8 /* Utils */,
+				E31D236B1D9BAF4B00C1CD04 /* View */,
+				E338960E1D9AB2E30068F728 /* Controllers */,
+				E338960D1D9AAC9A0068F728 /* Model */,
+				E33895E81D9AABAF0068F728 /* AppDelegate.h */,
+				E33895E91D9AABAF0068F728 /* AppDelegate.m */,
+				E33895EE1D9AABAF0068F728 /* Main.storyboard */,
+				E33895F11D9AABAF0068F728 /* Assets.xcassets */,
+				E33895F31D9AABAF0068F728 /* LaunchScreen.storyboard */,
+				E33895F61D9AABAF0068F728 /* Info.plist */,
+				E33896121D9AB2F70068F728 /* Resources */,
+				E33895E51D9AABAF0068F728 /* Supporting Files */,
+			);
+			path = TabataTimer;
+			sourceTree = "<group>";
+		};
+		E33895E51D9AABAF0068F728 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E33895E61D9AABAF0068F728 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E33895FE1D9AABAF0068F728 /* TabataTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E33895FF1D9AABAF0068F728 /* TabataTimerTests.m */,
+				E33896011D9AABAF0068F728 /* Info.plist */,
+			);
+			path = TabataTimerTests;
+			sourceTree = "<group>";
+		};
+		E338960D1D9AAC9A0068F728 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E3F0980E1D9E965A00219D56 /* ABTimerModel.h */,
+				E3F0980F1D9E965A00219D56 /* ABTimerModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E338960E1D9AB2E30068F728 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E33896131D9AB31A0068F728 /* ABSetupTimerViewController.h */,
+				E33896141D9AB31A0068F728 /* ABSetupTimerViewController.m */,
+				E33896161D9AB33D0068F728 /* ABTimerViewController.h */,
+				E33896171D9AB33D0068F728 /* ABTimerViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E33896121D9AB2F70068F728 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E37727B41DA2827400DBFBB8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E37727B51DA2829D00DBFBB8 /* UIColor+ABTabataTimerColors.h */,
+				E37727B61DA2829D00DBFBB8 /* UIColor+ABTabataTimerColors.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E33895E11D9AABAF0068F728 /* TabataTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E33896041D9AABAF0068F728 /* Build configuration list for PBXNativeTarget "TabataTimer" */;
+			buildPhases = (
+				E7D7E0EEE3D6B12E3B28BC2B /* [CP] Check Pods Manifest.lock */,
+				E33895DE1D9AABAF0068F728 /* Sources */,
+				E33895DF1D9AABAF0068F728 /* Frameworks */,
+				E33895E01D9AABAF0068F728 /* Resources */,
+				E811D411248D61D33D5E52AF /* [CP] Embed Pods Frameworks */,
+				4B57D19FD979ED001E20A8C3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabataTimer;
+			productName = TabataTimer;
+			productReference = E33895E21D9AABAF0068F728 /* TabataTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E33895FA1D9AABAF0068F728 /* TabataTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E33896071D9AABAF0068F728 /* Build configuration list for PBXNativeTarget "TabataTimerTests" */;
+			buildPhases = (
+				5846C52BB13080FC8A688156 /* [CP] Check Pods Manifest.lock */,
+				E33895F71D9AABAF0068F728 /* Sources */,
+				E33895F81D9AABAF0068F728 /* Frameworks */,
+				E33895F91D9AABAF0068F728 /* Resources */,
+				E4DC6753186D3A5DB2B78330 /* [CP] Embed Pods Frameworks */,
+				604504F83C1AEDBB7F5DCA24 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E33895FD1D9AABAF0068F728 /* PBXTargetDependency */,
+			);
+			name = TabataTimerTests;
+			productName = TabataTimerTests;
+			productReference = E33895FB1D9AABAF0068F728 /* TabataTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E33895DA1D9AABAF0068F728 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Alexey Bidnyk";
+				TargetAttributes = {
+					E33895E11D9AABAF0068F728 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					E33895FA1D9AABAF0068F728 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E33895E11D9AABAF0068F728;
+					};
+				};
+			};
+			buildConfigurationList = E33895DD1D9AABAF0068F728 /* Build configuration list for PBXProject "TabataTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E33895D91D9AABAF0068F728;
+			productRefGroup = E33895E31D9AABAF0068F728 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E33895E11D9AABAF0068F728 /* TabataTimer */,
+				E33895FA1D9AABAF0068F728 /* TabataTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E33895E01D9AABAF0068F728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33895F51D9AABAF0068F728 /* LaunchScreen.storyboard in Resources */,
+				E33895F21D9AABAF0068F728 /* Assets.xcassets in Resources */,
+				E33895F01D9AABAF0068F728 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33895F91D9AABAF0068F728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B57D19FD979ED001E20A8C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabataTimer/Pods-TabataTimer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5846C52BB13080FC8A688156 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		604504F83C1AEDBB7F5DCA24 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabataTimerTests/Pods-TabataTimerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4DC6753186D3A5DB2B78330 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabataTimerTests/Pods-TabataTimerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7D7E0EEE3D6B12E3B28BC2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E811D411248D61D33D5E52AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabataTimer/Pods-TabataTimer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E33895DE1D9AABAF0068F728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E37727B71DA2829D00DBFBB8 /* UIColor+ABTabataTimerColors.m in Sources */,
+				E3F098101D9E965A00219D56 /* ABTimerModel.m in Sources */,
+				E33895EA1D9AABAF0068F728 /* AppDelegate.m in Sources */,
+				E33896181D9AB33D0068F728 /* ABTimerViewController.m in Sources */,
+				E33896151D9AB31A0068F728 /* ABSetupTimerViewController.m in Sources */,
+				E31D236E1D9BAF6800C1CD04 /* ABTabataTimerView.m in Sources */,
+				E33895E71D9AABAF0068F728 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33895F71D9AABAF0068F728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33896001D9AABAF0068F728 /* TabataTimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E33895FD1D9AABAF0068F728 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E33895E11D9AABAF0068F728 /* TabataTimer */;
+			targetProxy = E33895FC1D9AABAF0068F728 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E33895EE1D9AABAF0068F728 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E33895EF1D9AABAF0068F728 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E33895F31D9AABAF0068F728 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E33895F41D9AABAF0068F728 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E33896021D9AABAF0068F728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E33896031D9AABAF0068F728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E33896051D9AABAF0068F728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31A1718D71D82F41CD0E525F /* Pods-TabataTimer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TabataTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AB.TabataTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E33896061D9AABAF0068F728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D9AAA146C15C309275BBDAD /* Pods-TabataTimer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TabataTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AB.TabataTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E33896081D9AABAF0068F728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CDCD7D1275523D2AB38EE84 /* Pods-TabataTimerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TabataTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AB.TabataTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabataTimer.app/TabataTimer";
+			};
+			name = Debug;
+		};
+		E33896091D9AABAF0068F728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAB87C75A4A80211B924E51E /* Pods-TabataTimerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TabataTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AB.TabataTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabataTimer.app/TabataTimer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E33895DD1D9AABAF0068F728 /* Build configuration list for PBXProject "TabataTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E33896021D9AABAF0068F728 /* Debug */,
+				E33896031D9AABAF0068F728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E33896041D9AABAF0068F728 /* Build configuration list for PBXNativeTarget "TabataTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E33896051D9AABAF0068F728 /* Debug */,
+				E33896061D9AABAF0068F728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E33896071D9AABAF0068F728 /* Build configuration list for PBXNativeTarget "TabataTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E33896081D9AABAF0068F728 /* Debug */,
+				E33896091D9AABAF0068F728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E33895DA1D9AABAF0068F728 /* Project object */;
+}

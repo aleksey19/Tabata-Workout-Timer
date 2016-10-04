@@ -83,10 +83,6 @@
             self.roundNumberLabel.text = [NSString stringWithFormat:@"%@/%@", currentLap, self.timerModel.countOfLaps];
             self.roundLabel.text = @"Round";
         }
-        else {
-//            self.roundNumberLabel.text = @"";
-//            self.roundLabel.text = @"";
-        }
     }];
 }
 
@@ -116,6 +112,14 @@
 
 - (IBAction)muteVolumeAction:(id)sender {
     [self.timerModel setMute:!self.timerModel.mute];
+}
+
+- (void)stopTimer {
+    [self.tabataTimerView stopTimer];
+}
+
+- (void)resumeTimer {
+    [self.tabataTimerView resumeTimer];
 }
 
 @end

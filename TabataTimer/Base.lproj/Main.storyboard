@@ -305,7 +305,7 @@
                         <outlet property="pauseTimerButton" destination="Wv0-6f-P9D" id="dFe-FD-4VC"/>
                         <outlet property="roundLabel" destination="FUI-qw-Ngo" id="82D-GB-JzM"/>
                         <outlet property="roundNumberLabel" destination="JX1-Zw-sGH" id="RvF-kQ-ghO"/>
-                        <outlet property="tabataTimerView" destination="mtZ-3C-zaQ" id="Vuh-NN-SBM"/>
+                        <outlet property="tabataTimerView" destination="mtZ-3C-zaQ" id="MMg-Yk-csb"/>
                         <outlet property="titleLabel" destination="aZV-Xm-cVj" id="Pzc-gH-daR"/>
                     </connections>
                 </viewController>

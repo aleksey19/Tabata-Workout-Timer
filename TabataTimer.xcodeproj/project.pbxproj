@@ -19,6 +19,7 @@
 		E33896151D9AB31A0068F728 /* ABSetupTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33896141D9AB31A0068F728 /* ABSetupTimerViewController.m */; };
 		E33896181D9AB33D0068F728 /* ABTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33896171D9AB33D0068F728 /* ABTimerViewController.m */; };
 		E37727B71DA2829D00DBFBB8 /* UIColor+ABTabataTimerColors.m in Sources */ = {isa = PBXBuildFile; fileRef = E37727B61DA2829D00DBFBB8 /* UIColor+ABTabataTimerColors.m */; };
+		E3919A3B1DA2935900A27BD5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3919A3A1DA2935900A27BD5 /* AudioToolbox.framework */; };
 		E3F098101D9E965A00219D56 /* ABTimerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F0980F1D9E965A00219D56 /* ABTimerModel.m */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,8 @@
 		E33896171D9AB33D0068F728 /* ABTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTimerViewController.m; sourceTree = "<group>"; };
 		E37727B51DA2829D00DBFBB8 /* UIColor+ABTabataTimerColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+ABTabataTimerColors.h"; path = "Utils/UIColor+ABTabataTimerColors.h"; sourceTree = "<group>"; };
 		E37727B61DA2829D00DBFBB8 /* UIColor+ABTabataTimerColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ABTabataTimerColors.m"; path = "Utils/UIColor+ABTabataTimerColors.m"; sourceTree = "<group>"; };
+		E3919A381DA2908A00A27BD5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E3919A3A1DA2935900A27BD5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		E3F0980E1D9E965A00219D56 /* ABTimerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTimerModel.h; sourceTree = "<group>"; };
 		E3F0980F1D9E965A00219D56 /* ABTimerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTimerModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3919A3B1DA2935900A27BD5 /* AudioToolbox.framework in Frameworks */,
 				667AB08873A86A45DACF0B26 /* libPods-TabataTimer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -85,6 +89,8 @@
 		38B1AB1C279FB56EF876D9C8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E3919A3A1DA2935900A27BD5 /* AudioToolbox.framework */,
+				E3919A381DA2908A00A27BD5 /* AVFoundation.framework */,
 				D1FBE1FD595BFE2BE7CEF13D /* libPods-TabataTimer.a */,
 				3AB1E8D1B60E074875C0354B /* libPods-TabataTimerTests.a */,
 			);

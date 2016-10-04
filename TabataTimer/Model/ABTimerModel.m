@@ -9,6 +9,8 @@
 #import "ABTimerModel.h"
 
 #import <ReactiveCocoa/ReactiveCocoa.h>
+//#import <AVFoundation/AVAudioPlayer.h>
+#import <AudioToolbox/AudioToolbox.h>
 
 #import "UIColor+ABTabataTimerColors.h"
 
@@ -134,6 +136,9 @@ NSInteger const REFRESH_INTERVAL = 1.0;
 }
 
 - (void)countDownPrepareTime {
+    if (3 >= self.elapsedTime > 0) {
+        [self playSound];
+    }
     if (--self.elapsedTime == 0) {
         // prepare timer elapsed
         if (self.timerOnPrepare) {
@@ -187,6 +192,30 @@ NSInteger const REFRESH_INTERVAL = 1.0;
     
     [self.timer setFireDate:[NSDate distantFuture]];
     self.timerOnPause = YES;
+}
+
+- (void)playSound {
+//    NSURL* musicFile = [NSURL initFileURLWithPath:[[NSBundle mainBundle]
+//                                                   pathForResource:@"BubblePopv4"
+//                                                   ofType:@"mp3"]];
+
+//    NSString *fileURLString = [NSString stringWithFormat:@"%@", [[NSBundle mainBundle] resourcePath]];
+//    NSString *fileNameWithExtension = @"Beep.mp3";
+//    NSURL *fileURL = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/%@", fileURLString, fileNameWithExtension]];
+//    NSError *error = nil;
+//    
+//    AVAudioPlayer *audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:&error];
+    
+//    NSString *path = [[NSBundle bundleWithIdentifier:@"com.apple.UIKit"] pathForResource:@"Tock" ofType:@"aiff"];
+//    SystemSoundID soundID;
+//    AudioServicesCreateSystemSoundID((__bridge CFURLRef)[NSURL fileURLWithPath:path], &soundID);
+//    AudioServicesPlaySystemSound(soundID);
+//    AudioServicesDisposeSystemSoundID(soundID);
+
+    NSURL *fileURL = [NSURL URLWithString:@"/System/Library/Audio/UISounds/ReceivedMessage.caf"]; // see list below
+    SystemSoundID soundID = 1005;
+    AudioServicesCreateSystemSoundID((__bridge_retained CFURLRef)fileURL,&soundID);
+    AudioServicesPlaySystemSound(soundID);
 }
 
 #pragma mark - Clear model

@@ -9,12 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @class ABTimerModel;
-@class ABPrepareTimerModel;
-@class ABWorkTimerModel;
-@class ABRestTimerModel;
+@class ABTabataTimerView;
 
 @interface ABTimerViewController : UIViewController
 
 @property (weak, nonatomic) ABTimerModel *timerModel;
+
+- (void)stopTimer;
+- (void)resumeTimer;
 
 @end

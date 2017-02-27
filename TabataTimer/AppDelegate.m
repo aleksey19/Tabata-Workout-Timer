@@ -17,7 +17,6 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
     return YES;
 }
 
@@ -25,7 +24,9 @@
     UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
     if ([navigationController isMemberOfClass:[UINavigationController class]]) {
         ABTimerViewController *timerViewController = (ABTimerViewController *)navigationController.topViewController;
-        [timerViewController stopTimer];
+        if ([timerViewController isMemberOfClass:[ABTimerViewController class]]) {
+            [timerViewController stopTimer];
+        }
     }
 }
 
@@ -33,7 +34,9 @@
     UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
     if ([navigationController isMemberOfClass:[UINavigationController class]]) {
         ABTimerViewController *timerViewController = (ABTimerViewController *)navigationController.topViewController;
-        [timerViewController resumeTimer];
+        if ([timerViewController isMemberOfClass:[ABTimerViewController class]]) {
+            [timerViewController stopTimer];
+        }
     }
 }
 

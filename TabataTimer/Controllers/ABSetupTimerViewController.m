@@ -41,7 +41,7 @@
     [super viewDidLoad];
     
     [self setupView];
-    [self bindModel];
+    [self bindModel];        
 }
 
 - (void)viewWillAppear:(BOOL)animated {

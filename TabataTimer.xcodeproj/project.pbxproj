@@ -59,6 +59,7 @@
 		E33896171D9AB33D0068F728 /* ABTimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTimerViewController.m; sourceTree = "<group>"; };
 		E37727B51DA2829D00DBFBB8 /* UIColor+ABTabataTimerColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+ABTabataTimerColors.h"; path = "Utils/UIColor+ABTabataTimerColors.h"; sourceTree = "<group>"; };
 		E37727B61DA2829D00DBFBB8 /* UIColor+ABTabataTimerColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ABTabataTimerColors.m"; path = "Utils/UIColor+ABTabataTimerColors.m"; sourceTree = "<group>"; };
+		E37C86101DEF14370029BCAD /* ABTabataTimerView_test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTabataTimerView_test.h; sourceTree = "<group>"; };
 		E3919A381DA2908A00A27BD5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		E3919A3A1DA2935900A27BD5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		E3F0980E1D9E965A00219D56 /* ABTimerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTimerModel.h; sourceTree = "<group>"; };
@@ -113,6 +114,7 @@
 			children = (
 				E31D236C1D9BAF6800C1CD04 /* ABTabataTimerView.h */,
 				E31D236D1D9BAF6800C1CD04 /* ABTabataTimerView.m */,
+				E37C86101DEF14370029BCAD /* ABTabataTimerView_test.h */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -264,6 +266,7 @@
 				TargetAttributes = {
 					E33895E11D9AABAF0068F728 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 38YX9V28PF;
 						ProvisioningStyle = Automatic;
 					};
 					E33895FA1D9AABAF0068F728 = {
@@ -553,6 +556,7 @@
 			baseConfigurationReference = 31A1718D71D82F41CD0E525F /* Pods-TabataTimer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 38YX9V28PF;
 				INFOPLIST_FILE = TabataTimer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -566,6 +570,7 @@
 			baseConfigurationReference = 2D9AAA146C15C309275BBDAD /* Pods-TabataTimer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 38YX9V28PF;
 				INFOPLIST_FILE = TabataTimer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
